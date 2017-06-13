@@ -2,6 +2,7 @@ language: java
 script: mvn install
 deploy:
   provider: bintray
-  file: "descriptor.json"
-  user: "Bintray user"
-  key: "Bintray API key"
+  file: descriptor.json
+  user: flyve-mdm-bot
+  key:
+    secure: FUnxe8eBcvVt1AlyNc8/2CzSSdkbH0Wq41x5Lbl9WQQarq9ZSQIssBK0Y350OB75S6bTcS+Jl5E8eFpC9ALv4QU2xvcrThMVUFv/J3fTxl+4qX2cQsu43KOjmL97nOq++cUEEtVXdOr2wMpi8Zp4jXP/wsKz2SNx1rbfg4GSiWyCgSdXTmwT1483g4RqkpqjCrD1J6NXg9EhMqmiS01pj3I39rpeAYq6ZPAOFm91pUBi8x5RfosutYUsLaU7adszjljYVQzq2MJrDqRRccfsBXmFHBFrSq9MMu7yRd9/bo+JFcURSAa8Aqb0BJRct4D0Oje5hxjRprDuhFkKfGIMuO9OUzHTchKKbo83bEbS6Brp86TNy1dAZh3OrnbFu8HaszI+JLKyhogvqolSj1qEFzCQug10zKEl2hBP4BFEZ7Wjhz7nTD+5kW8TEunR7uy7Ksw1rjmaZW4jWJyw8jFtQxIO9sQ8a5t9ARlQCdG8Xlm2wbkJ13AObt8pMYnlx8QQHFI34nQsN+7eItM+FdtHKspXYCvbBm+4V/p03rKGTTEAxHN5dUkHMq+UkQUGEQe0VUMLumDvVTrZlV8XZxCnipSvk6TcdmQsOze511R2t9QYy50CSRXitiHCNvLjEkB4P+Du9RsXpXotDlOYGypqt38eYQY4avdcp2BePS9NNBs=
